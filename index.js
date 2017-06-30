@@ -1,8 +1,8 @@
-var express		= require('express');
-var app 		= express();
-var passport	= require('passport');
-var bodyParser 	= require('body-parser');
-var port 		= process.env.PORT || 5000;
+var express     = require('express');
+var app         = express();
+var passport    = require('passport');
+var bodyParser  = require('body-parser');
+var port        = process.env.PORT || 5000;
 
 // for pasring request parameters
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -13,7 +13,7 @@ app.use(passport.initialize());
 
 // Start route
 app.get('/', function(req, res) {
-	res.send('API access on http://localhost:' + port + '/api');
+    res.send('API access on http://localhost:' + port + '/api');
 });
 
 // API routes

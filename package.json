@@ -1,20 +1,20 @@
 {
-  "name": "rudy-login",
-  "main": "index.js",
-  "dependencies": {
-    "bcrypt": "^1.0.2",
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3",
-    "jwt-simple": "^0.5.1",
-    "mongoose": "^4.10.8",
-    "passport": "^0.3.2",
-    "passport-jwt": "^2.2.1"
-  },
-  "version": "1.0.0",
-  "description": "Simple authentication API",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "author": "Anisuzzaman Khan",
-  "license": "ISC"
+    "name": "rudy-login",
+    "main": "index.js",
+    "dependencies": {
+        "bcrypt": "^1.0.2",
+        "body-parser": "^1.17.2",
+        "express": "^4.15.3",
+        "jwt-simple": "^0.5.1",
+        "mongoose": "^4.10.8",
+        "passport": "^0.3.2",
+        "passport-jwt": "^2.2.1"
+    },
+    "version": "1.0.0",
+    "description": "Simple authentication API",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Anisuzzaman Khan",
+    "license": "ISC"
 }

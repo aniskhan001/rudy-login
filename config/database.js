@@ -1,4 +1,4 @@
 module.exports = {
-	'secret': 'whatsNextWithNode',
-	'database': 'mongodb://localhost/rudy-login'
+    'secret': 'whatsNextWithNode',
+    'database': 'mongodb://localhost/rudy-login'
 };
