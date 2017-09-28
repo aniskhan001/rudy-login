@@ -1,4 +1,4 @@
-# rudy-login-api
+# rudy-login-api [![Build Status](https://travis-ci.org/aniskhan001/rudy-login.svg?branch=master)](https://travis-ci.org/aniskhan001/rudy-login)
 
 1. Install the dependencies `npm install`
 2. Run using `npm start`
